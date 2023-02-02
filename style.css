@@ -1,0 +1,297 @@
+/*common css*/
+*{
+    max-width: 1366px;
+    margin: 0 auto; 
+    padding: 0 auto;
+    font-family: sans-serif; 
+}
+#preloader{
+    background: rgb(197, 33, 33) url(images/xlb.gif) no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+header img{
+    width: 33%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 21px;
+    border-bottom: solid rgb(131, 4, 4);
+}
+nav{
+    text-align: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+nav ul a:hover{
+    border-radius: 50%;
+    background-color: rgb(197, 33, 33);
+}
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+.col p{
+    text-align: right;
+}
+h1{
+    font-size: 60px;
+    color: black;
+}
+section img{
+    float: left;
+    width: 40%;
+}
+.sectionback{
+    background-image: url(images/marble\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sectionvideo{
+    text-align: center;
+}
+.sectionvideo video{
+    box-shadow: 0px 15px 20px;
+}
+.promo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.promo img{
+    width: 40%;
+    padding-left: 100px;      
+}
+.promo-text{
+    padding-left: 10px;
+    width: 40%;
+    text-justify: auto;
+    line-height: 1.5;
+    font-size: 50px;
+}
+.desc{
+    opacity: 0.70;
+    font-size: 20px;
+}
+.footer{
+    padding: 20px 15%;
+    color: white;
+    background-color: rgb(131, 4, 4);
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.updates{
+    opacity: 0.70;
+    font-size: small;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: inherit;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.social{
+    padding: 10px;
+}
+.social i{
+    font-size: 25px;
+    padding: 4px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(131, 4, 4);
+}
+/*menu css*/
+.menu1back{
+    background-image: url(images/marble\ background.jpg);
+    background-size: cover;
+    background-repeat: repeat;  
+    background-color: black; 
+}
+.menu1{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+    
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px;
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details1>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.details>p{
+    color: gray;  
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;  
+}
+/*order css*/
+.order1back{
+    background-image: url(images/dtforder.jpg);
+}
+.order1{
+    display: grid;
+    place-items: center;
+    max-width: 700px;
+    background-color:white;
+    padding: 30px;
+    box-shadow: 0px 15px 20px;
+    height: 100vh;    
+}
+.order-text{
+    display: flex;
+    width: 50%;
+    padding: 21px;
+    text-align: center;    
+}
+.order-login{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 21px;
+    text-decoration: none;
+    color: black;
+}
+/*contact css*/
+.about{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.about img{
+    width: 40%;
+    padding-left: 100px;         
+}
+.about-text{
+    padding-left: 10px;
+    width: 40%;
+    text-justify: auto;
+    line-height: 1.5;
+    font-size: 50px;  
+}
+/*login and signup css*/
+.wrapperback{
+    background-image: url(images/dtf-login.jpg);   
+}
+.wrapper1back{
+    background-image: url(images/dtf-login.jpg);   
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 15px 20px;
+    height: 50vh;
+}
+.wrapper1{
+    display: grid;
+    place-items: center;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 15px 20px;
+    height: 100vh;
+}
+.title-text{
+    display: flex;
+    width: 50%;
+    padding: 21px;
+    text-align: center;
+}
+.title-login{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 21px;
+    text-decoration: none;
+    color: black;
+}
+.field{
+    height: 50px;
+    margin-top: 20px;
+}
+.field input{
+    border: 1px solid silver;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.forget{
+    text-align: center;
+}
+.signup-link{
+    text-align: center;
+}
