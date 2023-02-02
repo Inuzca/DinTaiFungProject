@@ -16,6 +16,19 @@
             text-align: center;
             padding-bottom: 20px;  
         }
+        label{
+            font-weight: bold;
+            margin-top: 20px;
+            display: block;
+        }
+        h5{
+            font-size: 50px;
+            font-weight: 700;
+            padding: 21px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -31,6 +44,7 @@
                     <a href="order.html" class="ORDER" title="ORDER">ORDER</a>
                     <a href="contact.html" class="CONTACT" title="CONTACT US">CONTACT US</a>
                     <a href="login.html" class="LOGIN" title="LOGIN">LOGIN/SIGNUP</a>
+                    <a href="order.html" class="cta">Order Now</a>
                 </ul>
             </nav>
         </div>   
@@ -40,11 +54,12 @@
                 <h5>Order</h5>  
             </div>     
         <div class="form-body">
-            <form method="post">
+            <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
             <div class="row" id="row1">
-                    <div class="orderappetizer">
+                    <div class="order-food">
                         <label>Appetizers: </label>
-                        <select name="Appetizer">
+                        <select name="appetizer">
+                            <option value="nil">-Empty-</option>
                             <option value="app1">Seaweed & Beancurd in a Vinegar Dressing</option>
                             <option value="app2">Sweet & Sour Pork Baby Back Ribs</option>
                             <option value="app3">Steamed Soup with Bone-in Chicken</option>
@@ -52,15 +67,107 @@
                         </select>
                         <div class="quantity">
                             <label>Quantity: </label>
-                            <input name="quantity" type="number" placeholder="Quantity of item">
+                            <input name="quantity-app" type="number" placeholder="Quantity of item">
                         </div>
                         <div class="request">
                             <label>Special Request: </label>
-                            <input name="request" type="text" placeholder="Remarks for the chefs">
+                            <textarea name="special-app" class="request-text-area" id="special-app" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
                         </div>
+                        <label>Xiao Long Bao: </label>
+                        <select name="xiao-long-bao">
+                            <option value="nil">-Empty-</option>
+                            <option value="xlb1">Korubuta Pork Xiao Long Bao</option>
+                            <option value="xlb2">Crab & Kurobata Pork Xiao Long Bao</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-xlb" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-xlb" class="request-text-area" id="special-xlb" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <label>Dumplings & Buns: </label>
+                        <select name="dumplings & buns">
+                            <option value="nil">-Empty-</option>
+                            <option value="bun1">Chicken Dumplings</option>
+                            <option value="bun2">Vegetable & Kurobata Pork Dumplings</option>
+                            <option value="bun3">Kurobata Pork Buns</option>
+                            <option value="bun4">Chicken & Mushroom Buns</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-bun" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-bun" class="request-text-area" id="special-bun" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <label>Greens: </label>
+                        <select name="greens">
+                            <option value="nil">-Empty-</option>
+                            <option value="green1">String Beans with Garlic</option>
+                            <option value="green2">Bok Choy with Scallion-Infused Oil</option>
+                            <option value="green3">Spinach with Garlic</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-green" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-green" class="request-text-area" id="special-green" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <label>Carbs: </label>
+                        <select name="carbs">
+                            <option value="nil">-Empty-</option>
+                            <option value="carb1">Noodles with Sesame Sauce</option>
+                            <option value="carb2">Noodles with Minced Kurobuta Pork</option>
+                            <option value="carb3">Braised Beef Noodle Soup</option>
+                            <option value="carb4">Pork Chop Fried Rice</option>
+                            <option value="carb5">Shredded Kurobuta Pork Fried Noodles</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-carb" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-carb" class="request-text-area" id="special-carb" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <label>Drinks: </label>
+                        <select name="drinks">
+                            <option value="nil">-Empty-</option>
+                            <option value="drink1">Milk Tea</option>
+                            <option value="drink2">Honey Lemonade</option>
+                            <option value="drink3">Sea Salt Cream Topped Iced Teas</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-drink" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-drink" class="request-text-area" id="special-drink" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <label>Desserts: </label>
+                        <select name="desserts">
+                            <option value="nil">-Empty-</option>
+                            <option value="dessert1">Chocolate & Mochi Xiao Long Bao</option>
+                            <option value="dessert2">Sweet Taro Xiao Long Bao</option>
+                            <option value="dessert3">Red Bean Sticky Rice Wrap</option>
+                        </select>
+                        <div class="quantity">
+                            <label>Quantity: </label>
+                            <input name="quantity-dessert" type="number" placeholder="Quantity of item">
+                        </div>
+                        <div class="request">
+                            <label>Special Request: </label>
+                            <textarea name="special-dessert" class="request-text-area" id="special-dessert" cols="20" rows="3" placeholder="Make a special request to the chef."></textarea>
+                        </div>
+                        <input type="submit" class="submit-order" value="Submit Order">
                     </div>
                 </form>
-                <button class="addbutton" onclick="add_more()">Add More</button>
             </div>
         </div>
     </div>
