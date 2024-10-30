@@ -1,5 +1,7 @@
+![nyp logo](https://github.com/user-attachments/assets/59d29b8d-2975-4967-92da-76f02f1de605)
 # NYP Din Tai Fung Website Project
 ### Module: Internet & Web Development (EGC 182)
+
 ### Project: Development of Website for (Your Favourite Food Stall)
 
 ### 1. Background
