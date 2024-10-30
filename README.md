@@ -62,14 +62,14 @@ b) You are to develop at **least FIVE (5)** pages and all the pages should have 
   &nbsp;LoginID <br>
   &nbsp;Password 
 - For Register: <br>
-    &nbsp;LoginID <br>
-    &nbsp;Name <br>
-    &nbsp;Password (must be at least 8 characters with some strong password requirement) <br>
-    &nbsp;Mobile <br>
-    &nbsp;Gender <br>
-    &nbsp;Email Address <br>
-    &nbsp;Address <br>
-    &nbsp;Race
+  &nbsp;LoginID <br>
+  &nbsp;Name <br>
+  &nbsp;Password (must be at least 8 characters with some strong password requirement) <br>
+  &nbsp;Mobile <br>
+  &nbsp;Gender <br>
+  &nbsp;Email Address <br>
+  &nbsp;Address <br>
+  &nbsp;Race
 
 ### 6. Requirements 
 ➢ Order form, login form and register forms must send to [http://jkorpela.fi/cgi-bin/echo.cgi](http://jkorpela.fi/cgi-bin/echo.cgi) <br>
