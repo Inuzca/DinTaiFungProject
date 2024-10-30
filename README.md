@@ -72,26 +72,21 @@ b) You are to develop at **least FIVE (5)** pages and all the pages should have 
     &nbsp;Race
 
 ### 6. Requirements 
-➢ Order form, login form and register forms must send to [http://jkorpela.fi/cgi-bin/echo.cgi](http://jkorpela.fi/cgi-bin/echo.cgi) 
-➢ **Design for desktop screen width of 1366px** 
-➢ Apply what you have learnt in this module as much as possible 
-➢ **Appropriate use of colour and typography** for web page design for the target audience 
-➢ Web page(s) must be saved as **.html** extension, and contain textual information, still and/or 
-animated images 
-➢ Use index.html as the landing page (home page) 
-➢ All your files (html, css, images) must be placed in a **single folder** 
-➢ Store all resource files in **appropriate sub-folders**, e.g. store all image files in a sub-folder 
-named “**images**” under your main folder 
-➢ Web page should appear in the **middle of the screen (browser)** if the design does not occupy 
-the entire width of the browser 
-➢ Use **relative addressing** for references to internal pages, images and css files 
-➢ Use a common **external CSS** to control the look and feel of the website (consistent look and feel) 
-➢ Use padding/margin to space out content/sections 
-➢ Web page should **not contain excessive whitespaces** (space with no content) 
-➢ User friendly and clear navigation with no broken links 
-➢ Validate forms using HTML5 Form Validation 
-➢ Contain Informative and interesting content 
-➢ Validate HTML and CSS files using [http://validator.w3.org/](http://validator.w3.org/) and [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/) 
-➢ **You are to create your own design for the project. Use of design template from another 
-website or bootstrap/tailwind css template is strictly prohibited - zero mark will be 
-awarded for your project **
+➢ Order form, login form and register forms must send to [http://jkorpela.fi/cgi-bin/echo.cgi](http://jkorpela.fi/cgi-bin/echo.cgi) <br>
+➢ **Design for desktop screen width of 1366px** <br>
+➢ Apply what you have learnt in this module as much as possible <br>
+➢ **Appropriate use of colour and typography** for web page design for the target audience <br>
+➢ Web page(s) must be saved as **.html** extension, and contain textual information, still and/or animated images <br>
+➢ Use index.html as the landing page (home page) <br>
+➢ All your files (html, css, images) must be placed in a **single folder** <br>
+➢ Store all resource files in **appropriate sub-folders**, e.g. store all image files in a sub-folder named “**images**” under your main folder <br>
+➢ Web page should appear in the **middle of the screen (browser)** if the design does not occupy the entire width of the browser <br>
+➢ Use **relative addressing** for references to internal pages, images and css files <br>
+➢ Use a common **external CSS** to control the look and feel of the website (consistent look and feel) <br>
+➢ Use padding/margin to space out content/sections <br>
+➢ Web page should **not contain excessive whitespaces** (space with no content) <br>
+➢ User friendly and clear navigation with no broken links <br>
+➢ Validate forms using HTML5 Form Validation <br>
+➢ Contain Informative and interesting content <br>
+➢ Validate HTML and CSS files using [http://validator.w3.org/](http://validator.w3.org/) and [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/) <br>
+➢ **You are to create your own design for the project. Use of design template from another website or bootstrap/tailwind css template is strictly prohibited - zero mark will be awarded for your project**
